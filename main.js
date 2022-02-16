@@ -11,11 +11,32 @@ function ClickCounter()
 const circle1 = document.getElementById("circle1");
 circle1.addEventListener('click', ClickCounter);
 
-// function 2 -- adding black border to circle 2 on mouseout 
+
+// function 2 -- adding black border to circle 2 on mouseover 
+
+// define 2 functions -- hover over + add border
+// mouse out - removes the border 
+
+// class list to add a border 
 
 function AddBorder()
+{
 
-let b = 
+document.getElementById("circle2").classList.add() //AddBorder - and color 
+
+}
+
+const circle2 = document.getElementById("circle2");
+circle2.addEventListener("mouseover", AddBorder); 
+
+
+function RemoveBorder()
+
+{
+
+
+}
+// mouseover and mouseout (move out of the circle we want border gone)
 
 
 // function 3 -- 
