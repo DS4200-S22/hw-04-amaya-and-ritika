@@ -7,7 +7,11 @@ h1 {
 }
 
 .container {
-
-	text-align: center;
-}
+	display: flex;
+	justify-content: space-between;
+} #circle2:hover {
+	stroke: black;
+	stroke-width: 5;
+} .hide {
+opacity: 0;
 

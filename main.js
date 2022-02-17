@@ -13,7 +13,23 @@ const circle1 = document.getElementById("circle1");
 circle1.addEventListener('click', ClickCounter);
 
 
-// function 2 & 3 -- adding and removing black border from circle
+// function for circle 3
+
+document. getElementById('circle3').onclick = (event) => {
+    const curElement = event.target;
+    const { opacity } = curElement.style;
+    if ( !opacity || opacity === "1") {
+        curElement.style.opacity = "0";
+    } else {
+        curElement.style.opacity = "1";
+    }
+}
+
+
+
+/*
+
+// function for circle2 -- adding and removing black border from circle
 
 function AddBorder()
 {
@@ -31,6 +47,7 @@ function RemoveBorder()
 // const circle2 = document.getElementById("circle2");
 circle2.addEventListener('mouseout', RemoveBorder); // mouse out 
 
+*/ 
 
 
 
